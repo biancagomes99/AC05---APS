@@ -33,13 +33,13 @@
 <hr>
 
 <div>
-    {% for fornecedor in fornecedores %}
+    {% for c in cliente %}
         <h4 class="well">
-            CPF: {{cliente.cpf}}
+            CPF: {{c.cpf}}
             <br>
-            Telefone: {{cliente.telefone}}
+            Telefone: {{c.telefone}}
             <br>
-            Nome: {{cliente.nome}}
+            Nome: {{c.nome}}
             <br>
         </h4>
     {% endfor %}
